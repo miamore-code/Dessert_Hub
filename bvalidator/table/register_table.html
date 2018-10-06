@@ -1,0 +1,221 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<style type="text/css">
+body
+{
+	background-color:#009966;
+}
+
+fieldset
+{
+	
+	width:600px;
+	height:750px;
+	border:#FF0000 inset 15px;
+	border-radius:8%;
+	box-shadow:0px 0px 15px 15px #000000;
+	
+}
+legend
+{
+	font-size:30px;
+	font-weight:bold;
+	color:#0000FF;
+	
+}
+
+table
+
+{
+	width:580px;
+	height:730px;
+	background:url(image/wall.jpg);
+	background-repeat:no-repeat;
+	background-size:580px 730px;
+	border:#000000 inset 3px;
+	border-radius:5%;
+	font-size:20px;
+	box-shadow:0px 0px 5px 5px green;
+	
+}
+
+input
+{
+	width:200px;
+	height:28px;
+	
+}
+select
+{
+	width:200px;
+	height:28px;
+	
+}
+textarea
+{
+	width:200px;
+	height:auto;
+	
+}
+
+input[type=text]:focus
+{
+	background-color:#00FF00;
+}
+input[type=password	]:focus
+{
+	background-color:#00FF00;
+}
+textarea[name=address]:focus
+{
+	background-color:#00FF00;
+}
+input[type=file]:focus
+{
+	background-color:#00FF00;
+}
+input[type=number]:focus
+{
+	background-color:#00FF00;
+}
+select[name=country]:focus
+{
+	background-color:#00FF00;
+}
+select[name=state]:focus
+{
+	background-color:#00FF00;
+}
+select[name=city]:focus
+{
+	background-color:#00FF00;
+}
+
+input[type=button]:focus
+{
+	background-color:#00F;
+}
+
+</style>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Untitled Document</title>
+</head>
+
+<body>
+<center>
+<form method="post">
+<fieldset>
+<legend align="center">Registration</legend>
+<table align="center" border="0">
+<tr>
+<th>username</th>
+<td><input type="text" name="uname" required="required" placeholder="enter username" /></td>
+</tr>
+<tr>
+<th>password</th>
+<td><input type="password" name="pass" required="required" /></td>
+</tr>
+
+<tr>
+<th>Gender</th>
+<td><input type="radio" name="gender" value="male" style="width:auto; height:auto"/>Male
+
+ <input type="radio" name="gender" value="female" style="width:auto; height:auto" />Female</td>
+</tr>
+<tr>
+<th>Hobby</th>
+<td><input type="checkbox" name="hob" value="raed" style="width:auto; height:auto" />Read
+<input type="checkbox" name="hob" value="write" style="width:auto; height:auto"/>Write
+<input type="checkbox" name="hob" value="paly" style="width:auto; height:auto"/>Play
+<input type="checkbox" name="hob" value="surfing" style="width:auto; height:auto"/>Surfing</td>
+</tr>
+
+<tr>
+<th>Uplaod image</th>
+<td><input type="file" name="file" /></td>
+</tr>
+
+<tr>
+<th>address</th>
+<td><textarea name="address"></textarea></td>
+</tr>
+
+<tr>
+<th>Mob</th>
+<td><input type="number" name="mob" /></td>
+</tr>
+
+<tr>
+<th>Select country</th>
+<td><select name="country">
+<option value="" selected="selected">Select your country</option>
+<option value="1">India</option>
+<option value="2">Pakistan</option>
+<option value="3">USA</option>
+<option value="4">China</option>
+</select>
+
+</td>
+</tr>
+<tr>
+<th>Select state</th>
+<td><select name="state">
+<option value="" selected="selected">Select your State</option>
+<option value="1">Gujrat</option>
+<option value="2">Afganistan</option>
+<option value="3">California</option>
+<option value="4">Hongkong</option>
+</select>
+
+</td>
+</tr>
+<tr>
+<th>Select city</th>
+<td><select name="city">
+<option value="" selected="selected">Select your city</option>
+<option value="1">Ahmedabad</option>
+<option value="2">Pakcity</option>
+<option value="3">usacity</option>
+<option value="4">Sanghai</option>
+</select>
+
+</td>
+</tr>
+
+<tr>
+<th>select Location</th>
+<td><select name="location" size="5" multiple="multiple" style="width:200px; height:auto">
+<option value="" selected="selected">Select location</option>
+
+<option value="1">Ahemdabad</option>
+
+<option value="2">Rajkot</option>
+
+<option value="3">Baroda</option>
+
+<option value="4">Gandhinagar</option>
+
+<option value="5">Junagarh</option>
+
+<option value="6">Surat</option>
+
+<option value="7">Mehsana</option>
+
+<option value="1">Ahemdabad</option>
+</select>
+
+</td>
+</tr>
+
+<tr>
+
+<td align="center" colspan="2"><input type="submit" name="sub" value="Register!" style="width:180px; height:45px; font-size:25px; font-weight:bold; background-color:#0C3; border-radius:5%;" /></td>
+</tr>
+
+
+</table>
+</fieldset>
+</form>
+</body>
+</html>
